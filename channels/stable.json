@@ -2,13 +2,13 @@
   "schema": 1,
   "product": "commgate",
   "channel": "stable",
-  "generated_at": "2026-11-07T23:06:15Z",
-  "latest": "0.0.1",
+  "generated_at": "2026-11-07T23:07:05Z",
+  "latest": "0.0.2",
   "releases": [
     {
       "version": "0.0.2",
       "released_at": "2026-11-07T22:51:49Z",
-      "yanked": true,
+      "yanked": false,
       "notes_url": "https://github.com/kandusm/commgate-releases/releases/tag/v0.0.2",
       "sha256sums_url": "https://github.com/kandusm/commgate-releases/releases/download/v0.0.2/SHA256SUMS",
       "notices_url": "https://github.com/kandusm/commgate-releases/blob/main/releases/0.0.2/legal/THIRD_PARTY_NOTICES.txt",
