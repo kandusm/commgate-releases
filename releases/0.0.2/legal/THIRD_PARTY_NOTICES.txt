@@ -1,1 +1,0 @@
-CommGate 0.0.2 third-party notices (DUMMY placeholder for pipeline testing)

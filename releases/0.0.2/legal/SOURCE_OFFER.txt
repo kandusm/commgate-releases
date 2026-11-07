@@ -1,1 +1,0 @@
-CommGate 0.0.2 GPL written source offer (DUMMY placeholder for pipeline testing)
