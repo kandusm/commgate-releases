@@ -2,9 +2,86 @@
   "schema": 1,
   "product": "commgate",
   "channel": "stable",
-  "generated_at": "2026-11-24T00:46:19Z",
-  "latest": "0.5.0-alpha.11",
+  "generated_at": "2026-11-24T04:14:47Z",
+  "latest": "0.5.0-alpha.12",
   "releases": [
+    {
+      "version": "0.5.0-alpha.12",
+      "released_at": "2026-11-24T04:14:45Z",
+      "yanked": false,
+      "notes_url": "https://github.com/kandusm/commgate-releases/releases/tag/v0.5.0-alpha.12",
+      "sha256sums_url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/SHA256SUMS",
+      "notices_url": "https://github.com/kandusm/commgate-releases/blob/main/releases/0.5.0-alpha.12/legal/THIRD_PARTY_NOTICES.txt",
+      "source_offer_url": "https://github.com/kandusm/commgate-releases/blob/main/releases/0.5.0-alpha.12/legal/SOURCE_OFFER.txt",
+      "artifacts": [
+        {
+          "id": "pi-image",
+          "kind": "os-image",
+          "os": "raspberrypi-os",
+          "arch": "arm64",
+          "filename": "commgate-0.5.0-alpha.12-rpi-arm64.img.xz",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/commgate-0.5.0-alpha.12-rpi-arm64.img.xz",
+          "size": 639526352,
+          "sha256": "d158ad6af434e4f6f3bedc9bb2dec390942e8f04fe7ac02d2da89a5e7071c4e5",
+          "content_type": "application/x-xz"
+        },
+        {
+          "id": "engine-linux-arm64",
+          "kind": "engine",
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "commgate-engine-0.5.0-alpha.12-linux-arm64.tar.gz",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/commgate-engine-0.5.0-alpha.12-linux-arm64.tar.gz",
+          "size": 48176994,
+          "sha256": "99459e2f25d6150bff1a60f41716ee716c6cddbe0dfd1f3c1f0ba255d0431663",
+          "content_type": "application/gzip"
+        },
+        {
+          "id": "engine-linux-x64",
+          "kind": "engine",
+          "os": "linux",
+          "arch": "x64",
+          "filename": "commgate-engine-0.5.0-alpha.12-linux-x64.tar.gz",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/commgate-engine-0.5.0-alpha.12-linux-x64.tar.gz",
+          "size": 48495850,
+          "sha256": "216e4c3e01073f838b7b843a41ea344d168a356b68dfd080aafe53ec231c38ed",
+          "content_type": "application/gzip"
+        },
+        {
+          "id": "drivers",
+          "kind": "drivers",
+          "os": null,
+          "arch": null,
+          "filename": "commgate-drivers-0.5.0-alpha.12.zip",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/commgate-drivers-0.5.0-alpha.12.zip",
+          "size": 735642,
+          "sha256": "d1a4f9aed232713fd23b83334a1c480a624bce86bb3c6294d9e279fff0c036f0",
+          "content_type": "application/zip"
+        },
+        {
+          "id": "install-guide",
+          "kind": "docs",
+          "os": null,
+          "arch": null,
+          "filename": "INSTALL.md",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/INSTALL.md",
+          "size": 31476,
+          "sha256": "5af0e0541057dfb1f65c0b68415486b0ed4d99939d18f2033eb78a918131239b",
+          "content_type": "text/markdown"
+        },
+        {
+          "id": "pi-image-sources",
+          "kind": "source",
+          "os": "raspberrypi-os",
+          "arch": "arm64",
+          "filename": "commgate-0.5.0-alpha.12-rpi-arm64-sources-1of1.tar",
+          "url": "https://github.com/kandusm/commgate-releases/releases/download/v0.5.0-alpha.12/commgate-0.5.0-alpha.12-rpi-arm64-sources-1of1.tar",
+          "size": 1287301120,
+          "sha256": "29728732b348b39e607d81305568fa28c9af0483c8a7ed35885d6cb8189112db",
+          "content_type": "application/octet-stream"
+        }
+      ]
+    },
     {
       "version": "0.5.0-alpha.11",
       "released_at": "2026-11-24T00:46:17Z",
