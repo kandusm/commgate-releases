@@ -1,0 +1,44 @@
+CommGate Engine License Agreement
+Version 1.0 — November 2026
+Copyright © 2026 CommVergent Automation LLC, 3500 Brown Dipper Dr, Pflugerville, TX 78660, USA
+
+This agreement covers the CommGate engine software and the CommGate gateway image
+("Software") published by CommVergent Automation LLC ("CommVergent").
+
+1. License. CommVergent grants you a free, non-exclusive, non-transferable license to
+download, install, and use the Software to connect supported devices to Control4
+systems, on hardware you provide or on hardware purchased from CommVergent.
+
+2. Restrictions. You may not sell, rent, or redistribute the Software or modified
+copies of it, with one exception: an installer or dealer may deliver the Software to a
+customer as part of installing a CommGate system. You may not remove copyright or
+license notices. You may not reverse engineer the Software except to the extent
+applicable law permits despite this limitation.
+
+3. Open-source components. The gateway image and the Software include third-party
+components under their own licenses, including GPL and LGPL components. Those licenses
+govern those components, and nothing in this agreement limits your rights under them.
+See THIRD_PARTY_NOTICES, the published package inventory, and SOURCE_OFFER.txt for
+license texts and the corresponding-source offer.
+
+4. Control4 drivers. The CommGate Control4 driver suite is licensed separately through
+DriverCentral and is not covered by this agreement.
+
+5. Updates. CommVergent may publish updates but has no obligation to provide updates
+or support.
+
+6. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NON-INFRINGEMENT. Hardware purchased from CommVergent carries its own written warranty;
+this section covers software only.
+
+7. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, COMMVERGENT IS NOT
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, OR
+LOSS OF DATA, PROFITS, OR REVENUE, ARISING FROM THE SOFTWARE, AND ITS TOTAL LIABILITY
+WILL NOT EXCEED THE AMOUNT YOU PAID COMMVERGENT FOR THE SOFTWARE (IF ANY).
+
+8. Termination. This license ends automatically if you breach it. Sections 3, 6, and 7
+survive termination.
+
+9. Governing law. Texas law governs this agreement, excluding its conflict-of-law
+rules; venue is Travis County, Texas.

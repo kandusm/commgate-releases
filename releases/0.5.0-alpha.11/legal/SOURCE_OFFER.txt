@@ -1,0 +1,56 @@
+CommGate 0.5.0-alpha.11: written offer for source code
+=======================================================
+
+What this covers
+----------------
+The CommGate hardware image for Raspberry Pi, commgate-0.5.0-alpha.11-rpi-arm64.img.xz, contains the software
+packages of Raspberry Pi OS Lite (64-bit), which is based on Debian. The packages themselves are unmodified. Many of
+them are licensed under the GNU General Public License (GPL) or the GNU Lesser General Public License (LGPL). Those
+licenses give you the right to receive the complete corresponding source code.
+
+The image is built from this Raspberry Pi OS release, with no packages added, removed or rebuilt:
+
+    Raspberry Pi OS Lite (64-bit), release 2026-10-06 (Debian 13 "trixie")
+    File:    2026-10-06-raspios-trixie-arm64-lite.img.xz
+    SHA-256: 483db18a48da399b5b7022ffae9a07bc6d99daab30e593aedac09b69ff422843
+    From:    https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2026-10-06/
+
+Every package in the image is listed in commgate-0.5.0-alpha.11-rpi-arm64.packages.tsv, published with this
+release. For each package it gives the version, the source package and source version (what to name in a request),
+and the licenses declared in the package's copyright file. The image also keeps each package's license and copyright
+notice in /usr/share/doc/<package>/copyright.
+
+CommVergent's own gateway software, installed under /opt/commgate, is not covered by this offer. It contains no
+GPL- or LGPL-licensed code (see ENGINE_AND_DRIVERS_LICENSES.txt), and its third-party components are listed in
+THIRD_PARTY_NOTICES.txt.
+
+Download
+--------
+The complete corresponding source code of every package in this image licensed under the GPL or the LGPL, at the
+exact versions in the image, is published with this release on the CommGate downloads page,
+https://automation.commvergent.com/downloads/commgate, at no charge:
+
+    commgate-0.5.0-alpha.11-rpi-arm64-sources-1of1.tar   the source packages (1.3 GB)
+    commgate-0.5.0-alpha.11-rpi-arm64.sources.tsv        which file holds each source package
+
+The .tar file is a set of Debian source packages: a .dsc file and the files it names. Unpack one with
+"dpkg-source -x <package>_<version>.dsc". The .tar file's SHA-256 is in the release's SHA256SUMS, and each .dsc
+file's SHA-256 is in the .tsv file. The archive also includes the source of the few packages whose copyright file
+doesn't state its license in machine-readable form.
+
+The offer
+---------
+In addition, for at least three years from the date CommVergent first distributed this version, CommVergent will
+give any third party, on request, a complete machine-readable copy of the corresponding source code of every GPL- or
+LGPL-licensed package in this image, at the versions listed in the package list. It will be provided by download, or
+on a medium customarily used for software interchange for a charge no more than the cost of physically performing
+that distribution.
+
+To request it, email support@commvergent.com. Give the CommGate version (0.5.0-alpha.11) and the source packages you
+want, or "all".
+
+The same source code is generally also available from Raspberry Pi (https://archive.raspberrypi.com) and Debian
+(https://deb.debian.org, https://snapshot.debian.org). Those addresses are given for convenience and don't replace
+the download or the offer above.
+
+CommVergent Automation LLC, 3500 Brown Dipper Dr, Pflugerville, TX 78660, USA

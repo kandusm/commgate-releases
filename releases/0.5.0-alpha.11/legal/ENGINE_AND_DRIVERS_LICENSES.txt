@@ -1,0 +1,22 @@
+CommGate 0.5.0-alpha.11: licenses of the engine and the Control4 drivers
+==========================================================================
+
+The engine tarballs (commgate-engine-0.5.0-alpha.11-linux-arm64.tar.gz and -linux-x64.tar.gz), the gateway software
+they install under /opt/commgate (also in the hardware image), and the Control4 drivers
+(commgate-drivers-0.5.0-alpha.11.zip and the eight .c4z files) contain no software licensed under the GPL or the LGPL.
+No source offer applies to them.
+
+What they contain:
+
+* CommVergent's own code: the engine, its installer and scripts, and the eight drivers. Proprietary. The engine and
+  the CommGate gateway image are licensed under the CommGate Engine License Agreement, EULA.txt: those are the
+  engine's governing terms. The drivers are licensed separately through DriverCentral.
+* Open-source dependencies of the engine, all under permissive licenses: matter.js (@matter/*, Apache-2.0),
+  @noble/curves and @noble/hashes (MIT), and ws (MIT). Their license and NOTICE texts are in THIRD_PARTY_NOTICES.txt.
+* The Node.js runtime (node/bin/node), MIT-licensed. Its node/LICENSE also carries the notices of the libraries
+  built into it. The GPL texts in that file belong to build scripts of one of those libraries (ICU's autoconf
+  macros, under the Autoconf exception), which aren't part of the runtime.
+* In the parent driver (commgate.c4z) only: DriverCentral's licensing client, proprietary software of DriverCentral
+  LLC, used under its Developer Agreement.
+
+The hardware image also contains Raspberry Pi OS packages, many under the GPL or LGPL: see SOURCE_OFFER.txt.
